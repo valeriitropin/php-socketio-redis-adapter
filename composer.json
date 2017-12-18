@@ -1,0 +1,25 @@
+{
+    "name": "valeriitropin/socketio-redis-adapter",
+    "type": "library",
+    "keywords": ["socket.io", "redis", "adapter"],
+    "require": {
+        "clue/redis-react": "^2.1",
+        "clue/block-react": "^1.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Valerii Tropin",
+            "email": "tropin.valeriy@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/valeriitropin/php-socketio-redis-adapter/issues",
+        "source": "https://github.com/valeriitropin/php-socketio-redis-adapter"
+    },
+    "autoload": {
+        "psr-4": {
+            "ValeriiTropin\\Socketio\\": "src/"
+        }
+    }
+}
